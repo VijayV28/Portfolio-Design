@@ -12,6 +12,12 @@ hr{
     margin: 1.5rem 0rem;
 }
 
+.hr-projects{
+    max-width: 800px;
+    margin: 3rem auto 0rem auto;
+
+}
+
 .tabspace{
     margin-left: 40px;
 }
@@ -142,10 +148,24 @@ body{
     color: var(--header-text)
 }
 
+.header span{
+    color: var(--header-text);
+}
+
 .header-image{
     max-width: 400px;
     display: block;
     margin: auto;
+}
+
+.header-projects{
+    padding-top: 3rem;
+
+}
+
+.header-projects h1{
+    font-weight: normal;
+    font-size: 2rem;
 }
 
 /* Sections */
@@ -163,10 +183,21 @@ body{
 
 .section-offwhite{
     background-color: var(--section-color);
+    max-width: 800px;
+    margin: auto;
 }
 
 .section span{
     color: var(--primary-color);
+}
+
+.section p{
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.section-projects{
+    padding-top: 0rem;
 }
 
 
@@ -208,4 +239,8 @@ footer .list-style-empty{
 
 footer .list-inline{
     padding: 0rem 0rem;
+}
+
+.footer-projects{
+    margin-top: 3rem;
 }

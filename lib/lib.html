@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles.css" rel="stylesheet"/>
+    <title>Basic CL</title>
+</head>
+
+<body>
+    <h1>Test Component Library for Portfolio Design</h1>
+    <p>
+        This library is created with reference to neogcamp lesson-3. It can be used to create a basic portfolio website
+        when combined with <span class="bold-text">CSS</span>
+    </p>
+
+    <hr/>
+
+    <h2>$Typography</h2>
+
+    <h1>This is the largest heading</h1>
+    <h2>This is relatively smaller</h2>
+    <h3>The size of the text keeps decreasing</h3>
+
+    <p>
+        This is a paragraph. A browser automatically adds some white space before and after a paragraph tag
+    </p>
+
+    <small>
+        This text is used to display the text one time smaller than the usual size in the browser
+    </small>
+
+    <hr/>
+
+    <h2>$Containers</h2>
+
+    <h3>1. Fluid Containers</h3>
+    <div class="container">This is a fluid container. It covers the entire viewport</div>
+
+    <h3>2. Centered Containers</h3>
+    <div  class="container container-center">
+        This is a centered container. It has a fixed width
+    </div>
+
+    <hr/>
+
+    <h2>$Links</h2>
+
+    <a href="/lib/lib.html" class="link link-primary">Primary link</a>
+    <a href="/lib/lib.html" class="link link-secondary">Secondary link</a>
+
+    <hr/>
+
+    <h2>$Lists</h2>
+
+    <p>An unordered list without bulletins:</p>
+    <ul class="list-style-empty">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+
+    <p>An unordered inline list is as follows:</p>
+    <ul>
+        <li class="list-inline">One</li>
+        <li class="list-inline">Two</li>
+        <li class="list-inline">Three</li>
+    </ul>
+
+    <p>
+        The bulletins can also be changed into different shapes with the help of attributes
+    </p>
+    <ul class="list-style-circle">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+
+    <p>An ordered list is as follows:</p>
+    <ol>
+        <li>Science</li>
+        <li>English</li>
+        <li>Mathematics</li>
+    </ol>
+
+    <p>A reverse ordered list is as follows:</p>
+    <ol reversed>
+        <li>Science</li>
+        <li>English</li>
+        <li>Mathematics</li>
+    </ol>
+
+    <hr/>
+
+    <h2>$Navigation</h2>
+    <nav class="navigation">
+        <div class="navigation-head">ComponentLibrary</div>
+        <ul class="list-style-empty">
+            <li><a href="/lib/lib.html" class="link navigation-active">Home</a></li>
+            <li><a href="/lib/lib.html" class="link">Projects</a></li>
+            <li><a href="/lib/lib.html" class="link">About</a></li>
+        </ul>
+    </nav>
+
+    <hr/>
+
+    <h2>$Header</h2>
+    <!-- The top part of the website which contains the title, navigation, etc,. -->
+    <header class="header">
+        <!-- The header part of the website is often termed as hero -->
+        <h1>Heading given in <span>hero</span></h1>
+        <img class="header-image" src="/Images/headerImage.svg">
+    </header>
+
+    <hr/>
+
+    <h2>$Section</h2>
+    <section class="section">
+        <h3><span>Normal Section</span></h3>
+        <p>This will have a white background. More text is added to show how it will be aligned when CSS is applied. Do ignore this text</p>
+    </section>
+
+    <section class="section section-offwhite">
+        <!-- The center heading and padding part will be covered in CSS -->
+        <h3><span>Off-white Section</span></h3>
+        <P>This will have a grey background. More text is added to show how it will be aligned when CSS is applied. Do ignore this text</P>
+    </section>
+
+    <hr/>
+
+    <h2>$Footer</h2>
+    <footer>
+        <!-- It is not a good practice to use heading tags inside footer -->
+        <div class="footer-head">Elements inside a footer</div>
+        <ul class="list-style-empty">
+            <li class="list-inline"><a href="/lib/lib.html" class="link footer-text">Social</a></li>
+            <span class="footer-lines">|</span>
+            <li class="list-inline"><a href="/lib/lib.html" class="link footer-text">Contact</a></li>
+            <span class="footer-lines">|</span>
+            <li class="list-inline"><a href="/lib/lib.html" class="link footer-text">Terms</a></li>
+        </ul>
+        <a class="link footer-name" href="https://github.com/VijayV28" target="_blank">©VijayV</a>
+    </footer>
+
+
+    
+
+
+
+
+</body>
+
+</html>

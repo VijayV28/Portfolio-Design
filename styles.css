@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root{
+    --primary-color: #0D9488;
+    --header-text: #1e293b;
+    --section-color: #f1f5f9;
+    --footer-color: #9ca3af;
+    --footer-name-color: #115e59;
+}
+
+hr{
+    margin: 1.5rem 0rem;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.bold-text{
+    font-weight: 700;
+}
+
+/* Containers */
+
+.container{
+    padding: 0rem 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Links */
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary{
+    border: 0.1rem solid var(--primary-color);
+    border-radius: 0.5rem;
+    color: var(--primary-color)
+}
+
+/* Lists */
+
+.list-style-empty{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.list-style-circle{
+    list-style-type: circle;
+}
+
+/* Navigation */
+
+.navigation{
+    background-color: var(--primary-color);
+    border-radius: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem;
+    color: white;
+}
+
+.navigation-head{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;   
+}
+
+.navigation ul{
+    text-align: center;
+    padding-inline-start: 0rem;
+}
+
+.navigation li{
+    color: white;
+    display: inline;
+    padding: 0rem 0.3rem;
+
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation-active{
+    font-weight: bold;
+}
+
+/* Header */
+.header{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.4rem;
+    color: var(--header-text);
+}
+
+.header span{
+    color: var(--primary-color)
+}
+
+.header-image{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+/* Sections */
+
+.section{
+    text-align: center;
+    padding: 3rem 0rem;
+}
+
+.section p{
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
+}
+
+.section-offwhite{
+    background-color: var(--section-color);
+}
+
+.section span{
+    color: var(--primary-color);
+}
+
+
+footer{
+    background-color: var(--footer-color);
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.footer-lines{
+    color: black;
+}
+
+.footer a{
+    color: var(--primary-color);
+}
+
+.footer-text{
+    font-weight: lighter;
+    font-size: 0.8rem;
+    color: white;
+}
+
+
+.footer-head{
+    font-size: 1rem;
+    color: black;
+}
+
+footer .list-style-empty{
+    padding-inline-start: 0px;
+}
+
+.footer-name{
+    color: var(--footer-name-color);
+    font-weight: lighter;
+}
+
+footer .list-inline{
+    padding: 0rem 0rem;
+}

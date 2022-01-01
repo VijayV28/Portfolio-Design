@@ -12,6 +12,14 @@ hr{
     margin: 1.5rem 0rem;
 }
 
+.tabspace{
+    margin-left: 40px;
+}
+
+.rightalign{
+    max-width: 0.1rem;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
 }

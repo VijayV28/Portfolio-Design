@@ -41,8 +41,20 @@ body{
     text-align: justify;
 }
 
+.container-center h3{
+    padding-bottom: 1rem;
+}
+
 .container .link{
     padding: 0rem 0rem;
+}
+
+#container-experiences hr{
+    max-width: 10rem;
+}
+
+#container-experiences h3{
+    padding-bottom: 1rem;
 }
 
 /* Links */
@@ -160,7 +172,7 @@ body{
 footer{
     background-color: var(--footer-color);
     padding: 1rem 1rem;
-    border-radius: 0.5rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
     text-align: center;
 }
 

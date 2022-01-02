@@ -136,6 +136,10 @@ body{
     font-weight: bold;
 }
 
+#navigation-blogs{
+    margin-bottom: 4rem;
+}
+
 /* Header */
 .header{
     text-align: center;
@@ -167,6 +171,7 @@ body{
     font-weight: normal;
     font-size: 2rem;
 }
+
 
 /* Sections */
 
@@ -200,7 +205,33 @@ body{
     padding-top: 0rem;
 }
 
+.section-blogs h1{
+    font-weight: normal;
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin: auto auto 0rem auto;
+    max-width: 400px;
+}
 
+.section-blogs span{
+    color: var(--header-text);
+}
+
+.section-blogs{
+    text-align: center;
+    padding: 2rem 0rem 2.5rem 0rem;
+}
+
+.section-blogs p{
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
+    padding: 1.5rem 0rem;
+}
+
+
+
+/* Footer */
 footer{
     background-color: var(--footer-color);
     padding: 1rem 1rem;

@@ -223,7 +223,7 @@ body{
 }
 
 .section-blogs p{
-    text-align: left;
+    text-align: justify;
     max-width: 600px;
     margin: auto;
     padding: 1.5rem 0rem;

@@ -64,6 +64,7 @@ body{
     padding-bottom: 1rem;
 }
 
+
 /* Links */
 
 .link{
@@ -83,6 +84,7 @@ body{
     border-radius: 0.5rem;
     color: var(--primary-color)
 }
+
 
 /* Lists */
 
@@ -138,6 +140,10 @@ body{
 
 #navigation-blogs{
     margin-bottom: 4rem;
+}
+
+#navigation-blog{
+    border-radius: 0rem 0rem;
 }
 
 /* Header */

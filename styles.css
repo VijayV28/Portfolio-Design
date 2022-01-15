@@ -232,6 +232,7 @@ body{
 .section-blogs{
     text-align: center;
     padding: 2rem 0rem 2.5rem 0rem;
+    border-radius: 1rem 1rem;
 }
 
 .section-blogs p{
